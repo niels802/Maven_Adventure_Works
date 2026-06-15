@@ -1,0 +1,5 @@
+% of All Orders = 
+DIVIDE(
+    [Total Orders], 
+    [All Orders]
+)
