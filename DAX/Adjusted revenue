@@ -1,0 +1,7 @@
+Adjusted revenue = 
+SUMX(
+    'Sales Data',
+    'Sales Data'[OrderQuantity]
+    *
+[Adjusted Price]
+)
