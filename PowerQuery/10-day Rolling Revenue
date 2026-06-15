@@ -1,0 +1,12 @@
+10-day Rolling Revenue = 
+CALCULATE(
+    [Total Revenue],
+    DATESINPERIOD(
+        'Calendar Lookup'[Date],
+        MAX(
+            'Calendar Lookup'[Date]
+        ),
+        -10,
+        DAY
+    )
+)
