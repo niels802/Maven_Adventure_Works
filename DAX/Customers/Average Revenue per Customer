@@ -1,0 +1,5 @@
+Average Revenue per Customer = 
+DIVIDE(
+    [Total Revenue], 
+    [Total Customers]
+)
