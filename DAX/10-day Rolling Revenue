@@ -1,3 +1,8 @@
+-- 10-day Rolling Revenue
+-- Description: Calculates total revenue over the last 10 days based on the selected date
+-- Use case: Useful for short-term trend analysis
+-- Depends on: Date table, Revenue measure
+
 10-day Rolling Revenue = 
 CALCULATE(
     [Total Revenue],
