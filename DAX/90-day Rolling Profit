@@ -1,0 +1,12 @@
+90-day Rolling Profit = 
+CALCULATE(
+    [Total Profit],
+    DATESINPERIOD(
+        'Calendar Lookup'[Date],
+        LASTDATE(
+            'Calendar Lookup'[Date]
+        ),
+        -90,
+        DAY
+    )
+)
