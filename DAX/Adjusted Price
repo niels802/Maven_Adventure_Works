@@ -1,0 +1,2 @@
+Adjusted Price = 
+[Average Retail Price] * (1 + 'Price adjustment %'[Price adjustment % Value])
