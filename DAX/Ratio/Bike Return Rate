@@ -1,0 +1,5 @@
+Bike Return Rate = 
+CALCULATE(
+    [Return Rate],
+    'Product Categories Lookup'[CategoryName] = "Bikes"
+)
